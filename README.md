@@ -29,7 +29,7 @@ python web.py
 ```
 To run the code on a single image of a sign language alphabet run the following command
 ```
-python predict.py -ip [image path]```
+python predict.py -ip [image path]
 ```
 To train the model on any other or the same dataset
 
