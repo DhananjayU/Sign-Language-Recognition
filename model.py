@@ -33,7 +33,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("-bp", "--base_path", 
 	help="The base path of the directory", 
-	default="./dataset/asl_alphabet_train/asl_alphabet_train/")
+	default="./Dataset1/train/")
 
 parser.add_argument("-v", "--val_split", type=float, help="Validation split", default=0.2)  
 parser.add_argument("-b", "--batch_size", type=int, help="Batch size", default=8)

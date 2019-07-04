@@ -16,8 +16,6 @@ from keras.datasets import cifar10
 from tensorflow.keras.callbacks import EarlyStopping,ModelCheckpoint
 from keras.preprocessing.image import ImageDataGenerator
 
-from keras.utils.np_utils import to_categorical
-
 model = Sequential()
 model.add(Conv2D(32, kernel_size = (5, 5), activation='relu',kernel_regularizer=l2(0.001), input_shape=(224,224, 1)))
 model.add(MaxPooling2D(pool_size=(2,2)))
