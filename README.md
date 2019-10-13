@@ -46,4 +46,6 @@ python model.py --base_path [path to the dataset directory]
 ## Built With
 
 * [Jupyter Notebook](https://jupyter.org/install) - IDE used
+* Python 3.7
+* Anaconda Package Manager.
 
